@@ -1,0 +1,129 @@
+body {
+    background: #f3f3f3;
+    color: #5d5b6a;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+}
+
+.div-container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.profil {
+    background: white;
+    padding: 60px;
+    margin: 100px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    
+    text-align: center;
+}
+
+.passion {
+    background: white;
+    padding: 60px;
+    margin: 100px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.experience {
+    background: white;
+    padding: 60px;
+    margin: 100px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.comp {
+    background: white;
+    padding: 60px;
+    margin: 100px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.reseaux {
+    background: white;
+    padding: 60px;
+    margin: 100px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+
+.div-center {
+    text-align: center;
+}
+
+h1 {
+    color: #b9cced;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    color: #e89da2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ffd369;
+}
+
+a:hover {
+    color: black;
+}
+
+
+#AxelleRowan{
+    width: 40px;
+}
+.img-circle{
+    border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .div-container {
+    width: 850px;
+  }
+}
+
+@media (max-width: 755px) {
+  /* For a screen < 960px, this CSS will be read */
+  .div-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* For a screen < 960px, this CSS will be read */
+  .div-container {
+    width: 500px;
+  }
+
+  .profil img {
+    width: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
